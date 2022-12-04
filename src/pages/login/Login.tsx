@@ -18,11 +18,11 @@ function Login() {
               align="center"
               style={{ fontWeight: "bold" }}
             >
-              Entrar
+              Enter
             </Typography>
             <TextField
               id="usuario"
-              label="usuário"
+              label="user"
               variant="outlined"
               name="usuario"
               margin="normal"
@@ -30,7 +30,7 @@ function Login() {
             />
             <TextField
               id="senha"
-              label="senha"
+              label="password"
               variant="outlined"
               name="senha"
               margin="normal"
@@ -40,7 +40,7 @@ function Login() {
             <Box marginTop={2} textAlign="center">
               <Link to="/home" className="text-decorator-none">
                 <Button type="submit" variant="contained" color="primary">
-                  Logar
+                  Sign In
                 </Button>
               </Link>
             </Box>
@@ -48,7 +48,7 @@ function Login() {
           <Box display="flex" justifyContent="center" marginTop={2}>
             <Box marginRight={1}>
               <Typography variant="subtitle1" gutterBottom align="center">
-                Não tem uma conta?
+                Don't have an account?
               </Typography>
             </Box>
             <Typography
@@ -57,7 +57,7 @@ function Login() {
               align="center"
               style={{ fontWeight: "bold" }}
             >
-              Cadastre-se
+              Sign Up
             </Typography>
           </Box>
         </Box>

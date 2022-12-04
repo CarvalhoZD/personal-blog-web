@@ -23,7 +23,7 @@ function Home() {
               align="center"
               style={{ color: "white", fontWeight: "bold" }}
             >
-              Seja bem vindo(a)!
+              Welcome !
             </Typography>
             <Typography
               variant="h5"
@@ -33,7 +33,7 @@ function Home() {
               align="center"
               style={{ color: "white", fontWeight: "bold" }}
             >
-              Compartilhe aqui os seus pensamentos e opiniões!
+              Share your thoughts and opinions!
             </Typography>
           </Box>
           <Box display="flex" justifyContent="center">
@@ -46,7 +46,7 @@ function Home() {
                 color: "white",
               }}
             >
-              Ver Postagens
+              See Posts
             </Button>
           </Box>
         </Grid>

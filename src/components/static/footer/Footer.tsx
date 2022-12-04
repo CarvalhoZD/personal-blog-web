@@ -28,7 +28,7 @@ function Footer() {
                 gutterBottom
                 style={{ color: "white" }}
               >
-                Me siga nas redes sociais{" "}
+                Follow my socials{" "}
               </Typography>
             </Box>
             <Box display="flex" alignItems="center" justifyContent="center">
