@@ -16,13 +16,13 @@ function Login() {
               color="textPrimary"
               component="h3"
               align="center"
-              style={{ fontWeight: "bold" }}
+              className="textos1"
             >
-              Enter
+              Entrar
             </Typography>
             <TextField
               id="usuario"
-              label="user"
+              label="usuário"
               variant="outlined"
               name="usuario"
               margin="normal"
@@ -30,7 +30,7 @@ function Login() {
             />
             <TextField
               id="senha"
-              label="password"
+              label="senha"
               variant="outlined"
               name="senha"
               margin="normal"
@@ -40,7 +40,7 @@ function Login() {
             <Box marginTop={2} textAlign="center">
               <Link to="/home" className="text-decorator-none">
                 <Button type="submit" variant="contained" color="primary">
-                  Sign In
+                  Logar
                 </Button>
               </Link>
             </Box>
@@ -48,31 +48,21 @@ function Login() {
           <Box display="flex" justifyContent="center" marginTop={2}>
             <Box marginRight={1}>
               <Typography variant="subtitle1" gutterBottom align="center">
-                Don't have an account?
+                Não tem uma conta?
               </Typography>
             </Box>
             <Typography
               variant="subtitle1"
               gutterBottom
               align="center"
-              style={{ fontWeight: "bold" }}
+              className="textos1"
             >
-              Sign Up
+              Cadastre-se
             </Typography>
           </Box>
         </Box>
       </Grid>
-      <Grid
-        xs={6}
-        style={{
-          backgroundImage: `url(https://i.imgur.com/d5bMdDJ.jpg)`,
-          backgroundRepeat: "no-repeat",
-          width: "100vh",
-          minHeight: "100vh",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      ></Grid>
+      <Grid xs={6} className="imagem"></Grid>
     </Grid>
   );
 }
